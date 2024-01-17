@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+img{
+  width: 100%;
+  display: block;
+}
+
+#about{
+  padding: 80px 80px 80px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.left-container{
+  width: 50%;
+}
+.left-container h3{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.left-container h4{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: lighter;
+}
+.left-container p{
+  text-align: justify;
+  word-spacing: 3px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.right-container{
+  padding: 25px 25px 25px 25px;
+  width: 35%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.right-container h5{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.right-container .image-container{
+  width: 70%;
+  margin: 0 auto;
+}
+.right-container .box{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.right-container .box .right-box{
+  width: 80%;
+  text-align: justify;
+  margin-left: 20px;
+}
+.right-container .box .right-box p{
+  font-size: 14px;
+}
+.right-container .box .right-box h4{
+  font-size: 18px;
+}
+.right-container .box .left-box{
+  width: 10%;
+}
+.right-container .box .left-box h4{
+  text-align: center;
+}
+.right-container .box .left-box .line{
+  border-bottom: 2px solid blue;
+  text-align: left;
+}
+.right-container button{
+  font-size: 18px;
+  background-color: blue;
+  color: beige;
+  padding: 3px;
+  display: block;
+  margin-left: auto;
+  border-radius: 7px;
+  border: none;
+}
